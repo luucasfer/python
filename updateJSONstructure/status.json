@@ -1,0 +1,30 @@
+{
+    "POSTE01": {
+        "sensorname": "FARMSTECH-POSTE1",
+        "Lampada1": 123,
+        "Lampada2": 456,
+        "Temperatura_ESP32": 55555,
+        "time": 1764535
+    },
+    "POSTE02": {
+        "sensorname": "FARMSTECH-POSTE2",
+        "Lampada1": 777,
+        "Lampada2": 888,
+        "Temperatura_ESP32": 51,
+        "time": 1764535
+    },
+    "POSTE03": {
+        "sensorname": "FARMSTECH-poste3",
+        "Lampada1": 0,
+        "Lampada2": 1,
+        "Temperatura_ESP32": 57.77778,
+        "time": 715716554
+    },
+    "POSTE04": {
+        "sensorname": "FARMSTECH-poste4",
+        "Lampada1": 0,
+        "Lampada2": 1,
+        "Temperatura_ESP32": 57.77778,
+        "time": 715716554
+    }
+}

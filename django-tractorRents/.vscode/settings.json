@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "minasul",
+            "database": "${workspaceFolder:05 - MINASSUL}/db.sqlite3"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
