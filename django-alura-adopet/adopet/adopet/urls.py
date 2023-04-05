@@ -15,13 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from quickstart.views import TutorViewSet
+from quickstart.views import TutorViewSet, AbrigoViewSet, PetViewSet
 from rest_framework import routers
+from django.conf import settings
+from django.conf.urls.static import static
 
 
 
 router = routers.DefaultRouter() 
 router.register('tutores', TutorViewSet, basename='Tutores')
+router.register('abrigos', AbrigoViewSet, basename='Abrigos')
+router.register('pets', PetViewSet, basename='Pets')
 
 
 
@@ -29,4 +33,4 @@ router.register('tutores', TutorViewSet, basename='Tutores')
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include(router.urls)),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
