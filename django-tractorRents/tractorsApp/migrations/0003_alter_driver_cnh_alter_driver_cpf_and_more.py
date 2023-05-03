@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('minasul', '0002_tractor_identification'),
+        ('tractorsApp', '0002_tractor_identification'),
     ]
 
     operations = [

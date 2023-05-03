@@ -1,5 +1,5 @@
 from django.db import models
-from minasul.validators import *
+from tractorsApp.validators import *
 from django.forms import forms
 
 """Modelos das tabelas, assim como no peewee """

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from minasul.models import Tractor, Driver, TractorRent
+from tractorsApp.models import Tractor, Driver, TractorRent
 
 
 class Tractors(admin.ModelAdmin):

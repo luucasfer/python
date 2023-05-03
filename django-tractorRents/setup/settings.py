@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "minasul",
+    "tractorsApp",
 ]
 
 MIDDLEWARE = [
@@ -81,6 +81,15 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
+
+
+INFLUXDB_HOST = 'localhost'
+INFLUXDB_PORT = 8086
+INFLUXDB_USERNAME = ''
+INFLUXDB_PASSWORD = ''
+INFLUXDB_DATABASE = 'dbTractorsApp'
+INFLUXDB_TIMEOUT = 10
+
 
 
 # Password validation

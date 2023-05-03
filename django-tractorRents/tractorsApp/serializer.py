@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from minasul.models import Tractor, Driver, TractorRent
-from minasul.validators import *
+from tractorsApp.models import Tractor, Driver, TractorRent
+from tractorsApp.validators import *
 from django.http import JsonResponse
 
 """Modelo de serialização de como os objetos serão retornados"""

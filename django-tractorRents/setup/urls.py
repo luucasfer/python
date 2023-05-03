@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from minasul.views import TractorsViewSet, DriversViewSet, TractorRentViewSet, ListDriverRentsViewSet, ListTractorRentsViewSet
+from tractorsApp.views import TractorsViewSet, DriversViewSet, TractorRentViewSet, ListDriverRentsViewSet, ListTractorRentsViewSet
 from rest_framework import routers
 
 

@@ -40,8 +40,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('date', models.DateField()),
-                ('driver', models.ForeignKey(on_delete=django.db.models.deletion.RESTRICT, to='minasul.driver')),
-                ('tractor', models.ForeignKey(on_delete=django.db.models.deletion.RESTRICT, to='minasul.tractor')),
+                ('driver', models.ForeignKey(on_delete=django.db.models.deletion.RESTRICT, to='tractorsApp.driver')),
+                ('tractor', models.ForeignKey(on_delete=django.db.models.deletion.RESTRICT, to='tractorsApp.tractor')),
             ],
         ),
     ]

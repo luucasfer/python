@@ -3,7 +3,7 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "minasul",
+            "name": "tractorsApp",
             "database": "${workspaceFolder:05 - MINASSUL}/db.sqlite3"
         }
     ],

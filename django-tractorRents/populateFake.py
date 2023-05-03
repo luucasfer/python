@@ -6,7 +6,7 @@ django.setup()
 from faker import Faker
 from validate_docbr import CPF, CNH
 import random
-from minasul.models import Driver, Tractor
+from tractorsApp.models import Driver, Tractor
 
 def criando_drivers(quantidade_de_pessoas):
     fake = Faker('pt_BR')
